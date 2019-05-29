@@ -1,0 +1,259 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<head>
+  <title>
+    PortfolioCSS
+  </title>
+  <style>
+    .container4 {
+  position: relative;
+  width: 50%;
+}
+
+.image4 {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .10s ease;
+  backface-visibility: hidden;
+}
+
+.middle4 {
+  transition: .10s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container4:hover .image4 {
+  opacity: 0.3;
+}
+
+.container4:hover .middle4 {
+  opacity: 1;
+}
+
+.text4 {
+  background-color: rgb(11, 207, 44);
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+    .container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(250, 247, 96);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  width: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+
+.container2 {
+  position: relative;
+  width: 50%;
+}
+
+.image2 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color:orange;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.container2:hover .overlay2 {
+  width: 100%;
+}
+
+.text2 {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.container3 {
+  position: relative;
+  width: 50%;
+}
+
+.image3 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay3 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(255, 25, 224);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.container3:hover .overlay3 {
+  width: 100%;
+}
+
+.text3 {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+    body {
+      background-color: aqua
+    }
+
+    .mySlides {
+      display: none;
+    }
+
+    h1 {
+      font-variant:
+
+    }
+
+    .mySlides2 {
+      display: none;
+    }
+
+    h1 {
+      font-variant:
+
+    }
+  </style>
+
+<body>
+  <div class ="jumbotron text-center">
+  
+    <h1><br>A&nbsp; E&nbsp; K&nbsp; K&nbsp; N&nbsp; O&nbsp; N&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;P&nbsp; H&nbsp; O&nbsp; M&nbsp; S&nbsp;
+      I&nbsp; R&nbsp; I&nbsp; U&nbsp; D&nbsp; O&nbsp; M</h1><br>
+ 
+    <hr width="50%" size="5" color="blue"><br><br>
+    <center><div class="container4">
+        <img src="pro1.jpg" alt="Avatar" class="image4" width="600" height="400">
+        <div class="middle4">
+          <div class="text4">Hello I'm Tae!!!</div>
+        </div>
+      </div></center>
+  
+  <center>
+    <br><br><br><br>
+    <h1>My Story</h1><br><br>
+    <p>My name is Aekknon Phomsiriudom</p>
+    <p>My nick name is tae</p>
+    <p>I'm grateduate at Sarasas pracha-utid pithayakarn school</p>
+    <p>My birthday is on sunday 5 december 1999</p>
+    <p>I'm study in faculty School of information technology,department of computer science at king mongkut university
+      of technology thonburi</p></div>
+  </center>
+  <hr width="50%" size="5" color="blue">
+  <br>
+  <br>
+  <center>
+    <h1>My Activity</h1><br><br>
+ 
+  <h2>-University game-</h2> </center><br><br>
+
+  <div class="container">
+      <img src="race9.jpg" alt="Avatar" class="image">
+      <div class="overlay">
+        <div class="text">I went to the ubon ratchathani to join the university game </div>
+      </div>
+   </div>
+   <br><br><br>
+   <hr width="50%" size="5" color="blue"><br><br>
+   <center><h2>-Volunteer camp-</h2> </center><br><br>
+   <center><div class="container2">
+      <img src="camp2.jpg" alt="Avatar" class="image2">
+      <div class="overlay2">
+        <div class="text2">I'm join the volunteer camp to help the children at watsanamchang school</div>
+      </div>
+   </div></center>
+   <br><br>
+   <hr width="50%" size="5" color="blue"><br><br>
+   <center><h2>-My taekwondo club-</h2> </center><br><br>
+   <center><div class="container3">
+      <img src="coach2.jpg" alt="Avatar" class="image3">
+      <div class="overlay3">
+        <div class="text3">I'm a assistant coach at pornsawan rungreang taekwondo.</div>
+      </div>
+   </div></center><br><br>
+   <hr width="100%" size="5" color="blue"><br><br>
+   
+
+
+   <center><h2>c&nbsp;o&nbsp;n&nbsp;t&nbsp;a&nbsp;c&nbsp;t&nbsp; m&nbsp;e&nbsp;:</h2><a href="mailto:61130500233@st.sit.kmutt.ac.th"><img src="https://img.icons8.com/material/480/000000/important-mail.png"width="50" height="50">
+  <a href="https://www.facebook.com/aekknon.phomsiriudom"><img src="https://img.icons8.com/material/480/000000/facebook.png" width="50" height="50">
+          <a href="https://www.instagram.com/aekknon/"><img src="https://img.icons8.com/material/480/000000/instagram-new.png" width="50" height="50" >
+      </center> 
+      <br><br><br>
+      </body> 
+    </head>
+</html>
